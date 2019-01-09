@@ -291,6 +291,14 @@ body {
       -webkit-animation-duration: 1s;
       visibility: visible;
   }
+  .small{
+    display: none;
+  }
+
+  .large{
+    display: inline;
+  }
+
   @keyframes slide {
     0% {
       opacity: 0;
@@ -347,6 +355,15 @@ body {
    .lg-scr{
       display: none;
    }
+
+   .small{
+     display: inline;
+   }
+
+   .large{
+     display: none;
+   }
+
    .sm-scr{
      display: inline-block;
    }
